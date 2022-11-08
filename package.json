@@ -1,6 +1,6 @@
 {
   "name": "next-replace-env",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Replaces runtime config after next has been built",
   "engines": {
     "pnpm": "7.12"

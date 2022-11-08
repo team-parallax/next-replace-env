@@ -1,10 +1,11 @@
+#!/usr/bin/env node
 require('colors');
 const path = require("path")
 const glob = require("glob")
 const Promise = require('bluebird');
 const Diff = require('diff');
 const fs = Promise.promisifyAll(require('fs'));
-const configRegex = /\"runtimeConfig\":({.*})/g;
+const configRegex = /\"runtimeConfig\":({.*?})/g;
 (async () => {
 	const nextConfigJsPath = path.resolve(process.cwd(), "next.config.js");
 	const nextConfig = require(nextConfigJsPath)
