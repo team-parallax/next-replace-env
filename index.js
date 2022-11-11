@@ -12,7 +12,7 @@ const configRegex = /\"runtimeConfig\":({.*?})/g;
 	const {
 		publicRuntimeConfig
 	} = nextConfig
-	const nextBuildGlobPattern = path.resolve(process.cwd(), ".next", "**", "*.*")
+	const nextBuildGlobPattern = path.resolve(process.cwd(), ".next", "**", "*.{js,html,json}")
 	const files = glob.sync(nextBuildGlobPattern);
 	let oldConfig
 	const promises = []
