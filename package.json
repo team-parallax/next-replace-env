@@ -10,7 +10,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "next",
+    "env"
+  ],
   "author": "Marcel Michelfelder <marcel.michelfelder@team-parallax.com> (https://team-parallax.com)",
   "license": "MIT",
   "bin": "index.js",
