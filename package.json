@@ -7,15 +7,12 @@
   "repository": {
     "url": "https://github.com/team-parallax/next-replace-env"
   },
-  "licenses": [{
-    "type": "MIT"
-  }],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Marcel Michelfelder <marcel.michelfelder@team-parallax.com> (https://team-parallax.com)",
-  "license": "ISC",
+  "license": "MIT",
   "bin": "index.js",
   "dependencies": {
     "bluebird": "^3.7.2",
